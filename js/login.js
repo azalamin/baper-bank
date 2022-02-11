@@ -6,9 +6,9 @@ document.getElementById('submit').addEventListener('click', function() {
     const userPassword = userPasswordField.value;
 
     if (userEmail == "baper@bank.com" && userPassword == "secret") {
-        // window.location.href = '../transaction.html';
-        window.open(
-            '../transaction.html', '_blank' // <- This is what makes it open in a new window.
-        );
+        window.location.href = '../transaction.html';
+        // window.open(
+        //     '../transaction.html', '_blank' // <- This is what makes it open in a new window.
+        // );
     }
 });
